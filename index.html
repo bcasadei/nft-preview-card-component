@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <!-- Card -->
+    <div class="card">
+      <div class="card__image-container">
+        <a href="#" class="card__image-link">
+          <img
+            src="./assets/images/image-equilibrium.jpg"
+            alt=""
+            class="card__image" />
+          <div class="card__image-active">
+            <img src="./assets/images/icon-view.svg" alt="view icon" />
+          </div>
+        </a>
+      </div>
+
+      <div class="card__overview">
+        <h3 class="card__title"><a href="#">Equilibrium #3429</a></h3>
+
+        <p class="card__description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+      </div>
+      <div class="card__bid-info">
+        <span class="card__bid-value"
+          ><img
+            src="./assets/images/icon-ethereum.svg"
+            alt="Etherium icon"
+            class="card__bid-eth-icon" />
+          0.041 ETH</span
+        >
+        <span class="card__bid-time"
+          ><img
+            src="./assets/images/icon-clock.svg"
+            alt="clock icon"
+            class="card__bid-clock-icon" />3 days left</span
+        >
+      </div>
+      <div class="card__profile">
+        <img
+          src="./assets/images/image-avatar.png"
+          alt="profile photo"
+          class="card__profile-avatar" />Creation of
+        <a href="#" class="card__profile-creator">Jules Wyvern</a>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/bcasadei">Bill Casadei</a>.
+    </div>
+  </body>
+</html>
