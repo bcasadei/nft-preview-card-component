@@ -85,7 +85,7 @@ body {
 }
 .card__title {
   font-size: 1.2rem;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .card__title a {
   color: var(--white);
@@ -98,7 +98,7 @@ body {
 .card__description {
   font-size: 1rem;
   font-weight: 300;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   color: var(--soft-blue);
 }
 .card__bid-info {
@@ -107,7 +107,7 @@ body {
   flex-flow: row nowrap;
   justify-content: space-between;
   font-size: 1rem;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .card__bid-value {
   display: flex;
@@ -133,8 +133,11 @@ body {
 .card__profile {
   display: flex;
   align-items: center;
+  padding-top: 15px;
   font-size: 1rem;
   color: var(--soft-blue);
+  border-top: 1px solid var(--line);
+  margin-bottom: 10px;
 }
 .card__profile-creator {
   color: var(--white);
