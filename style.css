@@ -171,6 +171,6 @@ body {
 /* Laptops and small screen – 769px — 1024px. */
 @media only screen and (min-width: 768px) {
   .card {
-    margin: 135px auto;
+    margin: 140px auto;
   }
 }
